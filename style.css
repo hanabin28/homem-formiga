@@ -1,0 +1,51 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 100px 1fr 100px;
+    padding: 70px 70px 24px 70px;
+    background-image: url(./image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+}
+
+main{
+    display: grid;
+}
+
+.description_text{
+    color: white;
+    width: 700px;
+    font-size: 24px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+header{
+    color: white;
+    font-size: 14px;
+    position: relative;
+    display: flex;
+    grid-gap: 50px;
+}
+
+footer{
+    display: flex;
+    gap: 24px;
+    align-items: flex-end;
+    max-height: 150%;
+}
+
+
+
+
+
+
+
