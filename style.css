@@ -1,4 +1,3 @@
-/* reset */
 *{
     margin: 0;
     padding: 0;
@@ -14,18 +13,30 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: local;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 main{
     display: grid;
+    height: 150px;
+    grid-gap: 24px;
+}
+
+.logo__icon{
+    height: 150px;
+    width: 45%;
 }
 
 .description_text{
     color: white;
-    width: 700px;
-    font-size: 24px;
+    width: 60%;
+    font-size: 20px;
     text-align: justify;
-    line-height: 30px;
+    line-height: 24px;
+}
+
+.instagram{
+    align-self: right;
 }
 
 header{
@@ -38,14 +49,6 @@ header{
 
 footer{
     display: flex;
-    gap: 24px;
+    gap: 22px;
     align-items: flex-end;
-    max-height: 150%;
 }
-
-
-
-
-
-
-
