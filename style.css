@@ -14,38 +14,58 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: local;
-}
-
-main{
-    display: grid;
-}
-
-.description_text{
-    color: white;
-    width: 700px;
-    font-size: 24px;
-    text-align: justify;
-    line-height: 30px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 header{
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     position: relative;
     display: flex;
     grid-gap: 50px;
 }
 
-footer{
-    display: flex;
-    gap: 24px;
-    align-items: flex-end;
-    max-height: 150%;
+main{
+    display: grid;
+    height: 150px;
+    width: 100%;
+    grid-gap: 24px;
+
+}
+
+.logo__icon{
+    height: 200px;
+    width: 40%;
+}
+
+.esquerdo{
+    width: 100%;
 }
 
 
 
 
+.description_text{
+    color:white;
+    width: 45%;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 27px;
+}
+
+.redes{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    grid-gap: 24px;
+    place-items: end;
+
+}
 
 
+footer{
 
+    display: flex;
+    gap: 22px;
+    align-items: end;
+}
