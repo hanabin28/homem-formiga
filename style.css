@@ -7,7 +7,7 @@
 body{
     display: grid;
     height: 100vh;
-    grid-template-rows: 100px 1fr 100px;
+    grid-template-rows: 100px 1fr 50px;
     padding: 70px 70px 24px 70px;
     background-image: url(./image/background.png);
     background-repeat: no-repeat;
@@ -16,9 +16,17 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 
+header{
+    color: white;
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    grid-gap: 50px;
+}
+
 main{
     display: grid;
-    height: 150px;
+    height: 100px;
     grid-gap: 24px;
 }
 
@@ -33,22 +41,6 @@ main{
     font-size: 20px;
     text-align: justify;
     line-height: 24px;
-}
-
-header{
-    color: white;
-    font-size: 16px;
-    position: relative;
-    display: flex;
-    grid-gap: 50px;
-}
-
-main{
-    display: grid;
-    height: 150px;
-    width: 100%;
-    grid-gap: 24px;
-
 }
 
 .logo__icon{
@@ -78,14 +70,7 @@ main{
 }
 
 footer{
-
     display: flex;
     gap: 22px;
     align-items: end;
-}
-
-footer{
-    display: flex;
-    gap: 22px;
-    align-items: flex-end;
 }
