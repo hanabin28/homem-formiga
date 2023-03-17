@@ -14,8 +14,6 @@ body{
     background-size: cover;
     background-attachment: local;
     font-family: 'Josefin Sans', sans-serif;
-<<<<<<< HEAD
-=======
 }
 
 main{
@@ -35,7 +33,6 @@ main{
     font-size: 20px;
     text-align: justify;
     line-height: 24px;
->>>>>>> f589fe2f80a2e0319b3db3ab367ff327d16fcc56
 }
 
 header{
@@ -46,7 +43,6 @@ header{
     grid-gap: 50px;
 }
 
-<<<<<<< HEAD
 main{
     display: grid;
     height: 150px;
@@ -63,9 +59,6 @@ main{
 .esquerdo{
     width: 100%;
 }
-
-
-
 
 .description_text{
     color:white;
@@ -84,17 +77,15 @@ main{
 
 }
 
-
 footer{
 
     display: flex;
     gap: 22px;
     align-items: end;
 }
-=======
+
 footer{
     display: flex;
     gap: 22px;
     align-items: flex-end;
 }
->>>>>>> f589fe2f80a2e0319b3db3ab367ff327d16fcc56
